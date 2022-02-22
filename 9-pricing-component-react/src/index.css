@@ -2,7 +2,7 @@
     --primary: linear-gradient(to right, #A3A8F0FF, #696FDDFF);
     --grayish-blue: #6D708DFF;
     --dark-grayish-blue:  #494C5FFF;
-    --light-grayish-blue:  #B3B5C6FF;
+    --light-grayish-blue: #e2e3ea;
     --very-light-grayish-blue: #F6F6FEFF;
 }
 
@@ -10,4 +10,9 @@ body {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
   background-color: #f6f7ff;
   font-size: 0.9rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
