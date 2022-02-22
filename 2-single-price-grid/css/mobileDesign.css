@@ -1,0 +1,40 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 45px auto;
+  }
+  .wrapper-1 h1 {
+    font-size: 1.6em;
+  }
+  .wrapper-1 p {
+    font-size: 1.2em;
+    margin: 1.5em auto;
+  }
+  .wrapper-1 p:last-of-type {
+    font-weight: 500;
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+  }
+  .wrapper-2 {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .content-1,
+  .content-2 {
+    flex-basis: 100%;
+  }
+  .content-1 {
+    border-radius: 0;
+  }
+  .content-1 p:last-of-type {
+    font-size: 21px;
+  }
+  .content-2 {
+    border-bottom-left-radius: 10px;
+  }
+  .wrapper-2 h4 {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+}

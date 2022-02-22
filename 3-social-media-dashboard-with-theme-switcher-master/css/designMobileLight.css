@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.content-1 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+header .content-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+header .content-2 span {
+  top: 130px;
+  left: 40px;
+}
+.container {
+  margin-top: 47px;
+  padding: 0 40px 0;
+}
+.section-1 {
+  flex-flow: column nowrap;
+}
+
+.section-1 .section-1-card {
+  margin: 13px 0;
+}
+.overview h2 {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  color: rgb(110, 109, 109);
+}
+.section-2 .row-1,
+.row-2 {
+  flex-flow: column nowrap;
+}
+.row-1 .section-2-card,
+.row-2 .section-2-card {
+  margin-bottom: 18px;
+}
+.row-1 .section-2-card:last-of-type {
+  margin-bottom: 0;
+}
+.section-2-card div:last-child {
+  margin-top: 25px;
+}
+/* CSS for Light Mode */
+.content-2 i {
+  color: gray;
+}

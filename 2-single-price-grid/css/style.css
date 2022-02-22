@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #f0f0f0;
+  font-size: 18px;
+}
+.container {
+  width: 750px;
+  margin: 45px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* Wrapper-1 CSS begins */
+.wrapper-1 {
+  padding: 40px;
+}
+.wrapper-1 h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 20px;
+}
+.wrapper-1 p:first-of-type {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.wrapper-1 p:last-of-type {
+  color: #adb3bf;
+  font-weight: 700;
+}
+/* Wrapper-1 CSS ends */
+
+/* Wrapper-2 CSS begins */
+.wrapper-2 {
+  display: flex;
+  flex-flow: row wrap;
+}
+.wrapper-2 p:first-of-type {
+  margin-bottom: 10px;
+}
+.wrapper-2 .content-1 p:first-of-type {
+  margin-bottom: 10px;
+  color: #8ddadc;
+}
+.wrapper-2 .content-2 ul li {
+  list-style: none;
+  margin: 2px;
+  color: #c1f8fa;
+}
+.wrapper-2 h4 {
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 23px;
+}
+.wrapper-2 .content-1 p span:first-of-type {
+  font-size: 200%;
+  color: white !important;
+}
+.wrapper-2 .content-1 p span:last-of-type {
+  position: absolute;
+  top: 105px;
+  left: 120px;
+}
+.content-1,
+.content-2 {
+  flex-basis: 50%;
+  color: white;
+  padding: 40px;
+}
+.content-1 {
+  background-color: #2bb3b1;
+  position: relative;
+  border-bottom-left-radius: 10px;
+}
+.content-2 {
+  background-color: #4abebd;
+  border-bottom-right-radius: 10px;
+}
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  padding: 15px 0;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 35px;
+  font-size: 17px;
+}
+/* Wrapper-2 CSS ends */

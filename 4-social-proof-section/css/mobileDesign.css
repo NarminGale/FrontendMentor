@@ -1,0 +1,71 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+
+  .wrapper-main {
+    margin: 3rem 2rem;
+  }
+  .wrapper-1 {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+  .content-1 {
+    flex-basis: 100%;
+  }
+
+  .wrapper-1 .content-1 h1 {
+    margin: 2rem auto;
+    padding: 0 5px;
+  }
+  .wrapper-1 .content-1 p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+  .rate-1,
+  .rate-2,
+  .rate-3 {
+    margin: 1rem 0;
+  }
+  .rate-1 p,
+  .rate-2 p,
+  .rate-3 p {
+    display: block;
+    margin-top: 0.7rem;
+    font-size: 15px;
+  }
+
+  .wrapper-2 {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    flex-basis: 100%;
+    padding: 30px;
+  }
+  .card-1,
+  .card-2 {
+    margin-right: 0;
+  }
+  .card-1 p,
+  .card-1 span,
+  .card-2 p,
+  .card-2 span,
+  .card-3 p,
+  .card-3 span {
+    font-size: 17px;
+  }
+  .card-1 p,
+  .card-2 p,
+  .card-3 p {
+    line-height: 1.6;
+  }
+  .card-1 h3,
+  .card-2 h3,
+  .card-3 h3 {
+    font-size: 16.5px;
+  }
+}
