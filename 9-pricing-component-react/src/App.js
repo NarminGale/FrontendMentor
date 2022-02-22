@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React, {useState} from "react";
 import './App.css';
+import ToggleButton from "./components/toggle-button/ToggleButton";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [toggled, setToggled] = useState(true)
+
+    console.log(toggled)
+    return (
+        <div className="App">
+            <h1>Our Pricing</h1>
+            <div>
+                <span>Annually</span>
+                <ToggleButton onChange={(e) => setToggled(e.target.checked)}/>
+                <span>Monthly</span>
+            </div>
+        </div>
+    );
 }
 
 export default App;
