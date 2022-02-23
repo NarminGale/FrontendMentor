@@ -13,7 +13,7 @@
 
 /*middle card style start*/
 .card.middle {
-    background-image: linear-gradient(to right bottom, #A3A8F0FF, #696FDDFF);
+    background: linear-gradient(to right bottom, #A3A8F0FF, #696FDDFF);
     color: white;
     height: 24rem;
     position: relative;
@@ -25,6 +25,12 @@
 .card.middle .card-footer .card-button {
     color: #696FDDFF;
     background: white;
+}
+
+.card.middle .card-footer .card-button:hover {
+    color: white;
+    background: transparent;
+    border-color: white;
 }
 /*middle card style end*/
 
@@ -67,13 +73,21 @@
 }
 
 .card-footer .card-button{
+    cursor: pointer;
     text-transform: uppercase;
     padding: 0.8rem 4rem;
     color: white;
-    border: none;
     font-weight: bold;
     font-size: 0.7rem;
     border-radius: 0.4rem;
     letter-spacing: 0.1rem;
-    background-image: var(--primary);
+    background: var(--primary);
+    border: 1px solid white;
+    transition: border 0.2s linear;
+}
+
+.card-footer .card-button:hover {
+    color: #696FDDFF;
+    border-color: #696FDDFF;
+    background: white;
 }
