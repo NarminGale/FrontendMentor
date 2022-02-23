@@ -4,7 +4,6 @@
     align-items: center;
     height: 100vh;
     padding: 4rem 0;
-    border: 1px solid red;
 }
 .section h1{
     color: var(--dark-grayish-blue);
@@ -22,6 +21,15 @@
 }
 
 .cards-section{
-    margin-top: 4.8rem;
+    margin-top: 4rem;
     display: flex;
+    align-items: center;
 }
+
+/*.cards-section:first-child{*/
+/*    border-bottom-right-radius: 0;*/
+/*    border-top-right-radius: 0;*/
+/*}*/
+/*.cards-section:last-child{*/
+
+/*}*/

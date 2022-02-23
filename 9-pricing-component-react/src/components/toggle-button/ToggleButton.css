@@ -18,15 +18,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #767cdd;
+    background-image: var(--primary);
     -webkit-transition: .4s;
     transition: .4s;
 }
-
-.slider:hover{
-    background-color: var(--light-grayish-blue);
-}
-
 .slider:before {
     position: absolute;
     content: "";

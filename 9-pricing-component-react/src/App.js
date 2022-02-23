@@ -16,7 +16,7 @@ function App() {
             </div>
             <div className="cards-section">
                 <Card/>
-                <Card/>
+                <Card cardClass="middle"/>
                 <Card/>
             </div>
         </div>
