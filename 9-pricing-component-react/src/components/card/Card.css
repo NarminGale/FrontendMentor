@@ -37,6 +37,9 @@
 .card-header{
     text-align: center;
 }
+.card-header h4{
+    text-transform: capitalize;
+}
 .card-header p{
     display: flex;
     align-items: center;
